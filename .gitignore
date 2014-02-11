@@ -1,0 +1,23 @@
+
+# Visual Studio
+
+*.user
+*.suo
+*.dll
+bin/
+obj/
+csx/
+rcf/
+packages/
+
+_ReSharper*/
+
+# OS trash
+
+.DS_Store
+.sass-cache
+desktop.ini
+Thumbs.db
+/src/_UpgradeReport_Files
+
+*.orig

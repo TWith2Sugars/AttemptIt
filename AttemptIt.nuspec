@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>AttemptIt</id>
-        <version>1.0.0</version>
+        <id>$id$</id>
+        <version>$version$</version>
         <title>AttemptIt</title>
-        <authors>Tony Williams</authors>
-        <owners>Tony Williams</owners>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
         <licenseUrl>https://github.com/TWith2Sugars/AttemptIt/blob/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/TWith2Sugars/AttemptIt</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>

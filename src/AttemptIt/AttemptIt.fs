@@ -54,10 +54,4 @@ type AttemptBuilder() =
     member this.Delay(f):Attempt<_,_> = delay f
     member this.Zero() : Attempt<_,_> = succeed()
 
-    [<CustomOperation("either", MaintainsVariableSpace = true)>]
-    member this.Either([<ProjectionParameter>]m, success, failure) = either (success >> succeed) (failure >> failed) m
-
-    [<CustomOperation("fail", MaintainsVariableSpace = true)>]
-    member this.Fail([<ProjectionParameter>]m, failure) = fail (failure >> failed) m
-
 let attempt = AttemptBuilder()

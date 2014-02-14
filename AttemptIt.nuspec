@@ -15,6 +15,6 @@
         <tags>F# FSharp ComputationExpression RailwayProgramming AttemptIt Attempt</tags>
     </metadata>
     <files>
-        <file src="bin\Release\AttemptIt.dll" target="lib\portable-net45+win8\AttemptIt.dll" />
+        <file src="src\AttemptIt\bin\Release\AttemptIt.dll" target="lib\portable-net45+win8\AttemptIt.dll" />
     </files>
 </package>

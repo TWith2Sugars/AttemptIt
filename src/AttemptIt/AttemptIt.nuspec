@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AttemptIt</id>
+        <version>1.0.0</version>
+        <title>AttemptIt</title>
+        <authors>Tony Williams</authors>
+        <owners>Tony Williams</owners>
+        <licenseUrl>https://github.com/TWith2Sugars/AttemptIt/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/TWith2Sugars/AttemptIt</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A computation expression inspired by http://fsharpforfunandprofit.com/posts/recipe-part2/ on railway programming</description>
+        <copyright>Copyright Tony Williams 2014</copyright>
+        <language />
+        <tags>F# FSharp ComputationExpression RailwayProgramming AttemptIt Attempt</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\AttemptIt.dll" target="lib\portable-net45+win8\AttemptIt.dll" />
+    </files>
+</package>

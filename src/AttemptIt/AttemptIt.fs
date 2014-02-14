@@ -32,23 +32,6 @@ type AttemptBuilder() =
     member this.Return(x) : Attempt<_,_>  = succeed x
     member this.ReturnFrom(x:Attempt<_,_>) = x
     member this.Combine(v, f):Attempt<_,_> = bind f v
-    member this.TryWith(body, handler) =
-        try body |> this.ReturnFrom
-        with e -> handler e
-    member this.TryFinally(body, compensation) =
-        try body |> this.ReturnFrom
-        finally compensation()
-
-    member this.Using(res:#IDisposable, body) =
-        this.TryFinally(body res, fun () -> match res with null -> () | disp -> disp.Dispose())
-
-    member this.While(guard, f:Attempt<_,_>):Attempt<_,_> =
-        if not (guard()) then this.Zero() else
-        this.Bind(f, (fun _ -> this.While(guard, f)))
-
-    member this.For(sequence:seq<_>, body):Attempt<_,_>  =
-        this.Using(sequence.GetEnumerator(), fun enum -> this.While(enum.MoveNext, this.Delay(fun () -> body enum.Current)))
-
     member this.Yield(x) = Success x
     member this.YieldFrom(x) = x
     member this.Delay(f):Attempt<_,_> = delay f

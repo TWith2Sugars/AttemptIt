@@ -11,8 +11,6 @@ Types
 * Attempt<'TSuccess, 'TFail> represents an attempt at doing something
 * Result<'TSuccess, 'TFail> represents the result of an attempt
 
-Results are a DU of Success and Fail (both generic) and
-
 Syntax
 ------
 

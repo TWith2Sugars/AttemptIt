@@ -1,5 +1,5 @@
 ﻿[<AutoOpen>]
-module AttemptIt
+module AttemptIt.Attempt
 
 open System
 

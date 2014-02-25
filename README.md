@@ -6,6 +6,9 @@ F# computation expression based on railway programming http://fsharpforfunandpro
 ## Build Status
 [![Build Status](https://ci-beta.appveyor.com/api/projects/status/898208nqnesee1n1)](https://ci-beta.appveyor.com/project/TWith2Sugars/attemptit)
 
+## Nuget
+https://www.nuget.org/packages/AttemptIt
+
 Types
 -----
 * Attempt<'TSuccess, 'TFail> represents an attempt at doing something

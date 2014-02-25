@@ -4,7 +4,7 @@ AttemptIt
 F# computation expression based on railway programming http://fsharpforfunandprofit.com/posts/recipe-part2/
 
 ## Build Status
-[![Build Status](https://api.travis-ci.org/TWith2Sugars/AttemptIt.png)](https://travis-ci.org/TWith2Sugars/AttemptIt)
+[![Build Status](https://ci-beta.appveyor.com/api/projects/status/898208nqnesee1n1)](https://ci-beta.appveyor.com/project/TWith2Sugars/attemptit)
 
 Types
 -----

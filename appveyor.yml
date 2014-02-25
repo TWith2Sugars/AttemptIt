@@ -1,1 +1,1 @@
-build:  project: ./src/AttemptIt.slntest:  assemblies:    - AttemptIt.Tests.dll
+before_build: nuget restore ./src/AttemptIt.slnbuild:  project: ./src/AttemptIt.slntest:  assemblies:    - AttemptIt.Tests.dll

@@ -1,1 +1,1 @@
-build_script: ./build.bat
+build:  project: /src/AttemptIt.slntest:  assemblies:    - AttemptIt.Tests.dll

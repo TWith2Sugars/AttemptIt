@@ -84,9 +84,6 @@ Target "Test" (fun _ ->
                 HtmlOutput = true;
                 XmlOutput = true;
                 OutputDir = testDir })
-
-    let testDllLocations = testDlls |> Seq.map(fun f -> sprintf "%A" f)
-    String.Join(",",testDllLocations) |> trace "Testing the following: " +
 )
 
 Target "Default" (fun _ ->

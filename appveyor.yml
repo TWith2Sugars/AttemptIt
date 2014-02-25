@@ -1,1 +1,1 @@
-build:  project: AttemptIt.slntest:  assemblies:    - AttemptIt.Tests.dll
+build:  project: ./src/AttemptIt.slntest:  assemblies:    - AttemptIt.Tests.dll

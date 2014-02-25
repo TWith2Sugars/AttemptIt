@@ -12,6 +12,10 @@ packages/
 
 _ReSharper*/
 
+# misc
+/build/
+/test/
+/tools/
 # OS trash
 
 .DS_Store
